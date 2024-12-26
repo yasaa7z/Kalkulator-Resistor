@@ -1,0 +1,78 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  background-color: #8dc15b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 35rem;
+  height: 20rem;
+  padding: 2rem;
+  border-radius: 20px;
+  background-color: #b4dc87;
+  box-shadow: 20px 20px rgba(0, 0, 0, 0.8);
+  border: 3px solid black;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.container h1 {
+  color: black;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.container h3 {
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.btn {
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: BLACK;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #74A12E;
+}
+
+
